@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:10:5-74:19
+12        android:name="com.android.attendance.context.ApplicationContext"
+12-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:11:10-74
+13        android:allowBackup="true"
+13-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:12:9-35
+14        android:debuggable="true"
+15        android:icon="@drawable/ic_launcher"
+15-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:13:9-45
+16        android:label="@string/app_name"
+16-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:14:9-41
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:15:9-40
+19        <activity
+19-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:16:9-24:20
+20            android:name="com.android.attendance.activity.MainActivity"
+20-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:17:13-72
+21            android:label="@string/app_name" >
+21-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:18:13-45
+22            <intent-filter>
+22-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:19:13-23:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:20:17-69
+23-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:20:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:22:17-77
+25-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:22:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:25:10-28:20
+29            android:name="com.android.attendance.activity.LoginActivity"
+29-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:26:13-73
+30            android:label="@string/app_name" >
+30-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:27:13-45
+31        </activity>
+32        <activity
+32-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:29:10-32:20
+33            android:name="com.android.attendance.activity.MenuActivity"
+33-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:30:13-72
+34            android:label="@string/app_name" >
+34-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:31:13-45
+35        </activity>
+36        <activity
+36-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:33:10-36:20
+37            android:name="com.android.attendance.activity.AddFacultyActivity"
+37-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:34:13-78
+38            android:label="@string/app_name" >
+38-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:35:13-45
+39        </activity>
+40        <activity
+40-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:37:9-40:20
+41            android:name="com.android.attendance.activity.AddStudentActivity"
+41-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:38:13-78
+42            android:label="@string/app_name" >
+42-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:39:13-45
+43        </activity>
+44        <activity
+44-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:41:9-44:20
+45            android:name="com.android.attendance.activity.ViewFacultyActivity"
+45-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:42:13-79
+46            android:label="@string/app_name" >
+46-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:43:13-45
+47        </activity>
+48        <activity
+48-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:45:9-48:20
+49            android:name="com.android.attendance.activity.ViewStudentActivity"
+49-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:46:13-79
+50            android:label="@string/app_name" >
+50-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:47:13-45
+51        </activity>
+52        <activity
+52-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:49:9-52:20
+53            android:name="com.android.attendance.activity.TestActivity"
+53-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:50:13-72
+54            android:label="@string/app_name" >
+54-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:51:13-45
+55        </activity>
+56        <activity
+56-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:53:10-56:20
+57            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+57-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:54:13-83
+58            android:label="@string/app_name" >
+58-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:55:13-45
+59        </activity>
+60        <activity
+60-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:57:11-60:20
+61            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+61-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:58:13-88
+62            android:label="@string/app_name" >
+62-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:59:13-45
+63        </activity>
+64        <activity
+64-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:61:10-64:20
+65            android:name="com.android.attendance.activity.AddAttendanceActivity"
+65-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:62:13-81
+66            android:label="@string/app_name" >
+66-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:63:13-45
+67        </activity>
+68        <activity
+68-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:65:10-68:20
+69            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+69-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:66:13-91
+70            android:label="@string/app_name" >
+70-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:67:13-45
+71        </activity>
+72        <activity
+72-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:69:10-72:20
+73            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+73-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:70:13-92
+74            android:label="@string/app_name" >
+74-->C:\Users\Okeyo Brains\AndroidStudioProjects\Android-Attendance-App-source code\app\src\main\AndroidManifest.xml:71:13-45
+75        </activity>
+76    </application>
+77
+78</manifest>
